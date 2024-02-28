@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DataBase]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Basics(failed)">
+    <classes>
+      <class name="CrudMethods.BasicscrudMethods">
+        <methods>
+          <include name="AddNewData"/>
+          <include name="pre_test"/>
+          <include name="post_test"/>
+        </methods>
+      </class> <!-- CrudMethods.BasicscrudMethods -->
+    </classes>
+  </test> <!-- Basics(failed) -->
+</suite> <!-- Failed suite [DataBase] -->
